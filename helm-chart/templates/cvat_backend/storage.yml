@@ -10,7 +10,7 @@ metadata:
     tier: backend
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: {{ .Values.cvat.backend.defaultStorage.size }}
